@@ -57,6 +57,7 @@
 		C558A8CC29E82FBC001415CE /* FirebaseSwiftUIAuth */ = {
 			isa = PBXGroup;
 			children = (
+				C558A8E729E83B92001415CE /* Feature */,
 				C558A8CD29E82FBC001415CE /* FirebaseSwiftUIAuthApp.swift */,
 				C558A8CF29E82FBC001415CE /* ContentView.swift */,
 				C558A8D129E82FBE001415CE /* Assets.xcassets */,
@@ -72,6 +73,29 @@
 				C558A8D429E82FBE001415CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C558A8E729E83B92001415CE /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				C558A8E829E83BA1001415CE /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		C558A8E829E83BA1001415CE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C558A8E929E83BAA001415CE /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C558A8E929E83BAA001415CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
