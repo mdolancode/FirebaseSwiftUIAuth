@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct RegisterView: View {
-    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         NavigationView {
@@ -17,13 +16,7 @@ struct RegisterView: View {
             }
             .padding(.horizontal, 15)
             .navigationTitle("Register")
-            .toolbar {
-                Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                }, label: {
-                    Image(systemName: "xmark")
-                })
-            }
+            .applyClose()
         } 
     }
 }
