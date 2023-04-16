@@ -16,6 +16,8 @@
 		C558A8EB29E83C15001415CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558A8EA29E83C15001415CE /* LoginView.swift */; };
 		C558A8EF29E83DC6001415CE /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558A8EE29E83DC6001415CE /* InputTextFieldView.swift */; };
 		C558A8F529E8E04F001415CE /* PreviewLayoutComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558A8F429E8E04F001415CE /* PreviewLayoutComponentModifier.swift */; };
+		C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0029EC2AB40041773D /* InputPasswordView.swift */; };
+		C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0229EC2E580041773D /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		C558A8EA29E83C15001415CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C558A8EE29E83DC6001415CE /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
 		C558A8F429E8E04F001415CE /* PreviewLayoutComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponentModifier.swift; sourceTree = "<group>"; };
+		C5F32D0029EC2AB40041773D /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
+		C5F32D0229EC2E580041773D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				C558A8EE29E83DC6001415CE /* InputTextFieldView.swift */,
+				C5F32D0029EC2AB40041773D /* InputPasswordView.swift */,
+				C5F32D0229EC2E580041773D /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,9 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */,
 				C558A8EB29E83C15001415CE /* LoginView.swift in Sources */,
 				C558A8F529E8E04F001415CE /* PreviewLayoutComponentModifier.swift in Sources */,
 				C558A8CE29E82FBC001415CE /* FirebaseSwiftUIAuthApp.swift in Sources */,
+				C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */,
 				C558A8EF29E83DC6001415CE /* InputTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
