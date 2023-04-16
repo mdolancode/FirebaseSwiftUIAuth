@@ -162,17 +162,17 @@
 		C5F32D0A29EC60410041773D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C5F32D0B29EC604D0041773D /* Home */,
+				C5F32D0B29EC604D0041773D /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		C5F32D0B29EC604D0041773D /* Home */ = {
+		C5F32D0B29EC604D0041773D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				C5F32D0C29EC60730041773D /* HomeView.swift */,
 			);
-			path = Home;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
