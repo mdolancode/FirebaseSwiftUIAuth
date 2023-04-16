@@ -20,6 +20,7 @@
 		C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0229EC2E580041773D /* ButtonView.swift */; };
 		C5F32D0729EC366C0041773D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0629EC366C0041773D /* RegisterView.swift */; };
 		C5F32D0929EC38B10041773D /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0829EC38B10041773D /* CloseModifier.swift */; };
+		C5F32D0D29EC60730041773D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0C29EC60730041773D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		C5F32D0229EC2E580041773D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C5F32D0629EC366C0041773D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		C5F32D0829EC38B10041773D /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
+		C5F32D0C29EC60730041773D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		C558A8E729E83B92001415CE /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				C5F32D0A29EC60410041773D /* Home */,
 				C5F32D0429EC36330041773D /* Register */,
 				C558A8E829E83BA1001415CE /* Login */,
 			);
@@ -154,6 +157,22 @@
 				C5F32D0629EC366C0041773D /* RegisterView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C5F32D0A29EC60410041773D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5F32D0B29EC604D0041773D /* Home */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C5F32D0B29EC604D0041773D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C5F32D0C29EC60730041773D /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F32D0D29EC60730041773D /* HomeView.swift in Sources */,
 				C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */,
 				C558A8EB29E83C15001415CE /* LoginView.swift in Sources */,
 				C558A8F529E8E04F001415CE /* PreviewLayoutComponentModifier.swift in Sources */,
