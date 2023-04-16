@@ -49,17 +49,13 @@ struct InputTextFieldView_Previews: PreviewProvider {
                                placeholder: "Email",
                                keyboardType: .emailAddress,
                                sfSymbol: "envelope")
-            .previewLayout(.sizeThatFits)
-            .previewDisplayName("Email Text Input with sfSymbol")
-            .padding()
+            .preview(with: "Email Text Input with sfSymbol")
             
             InputTextFieldView(text: .constant(""),
                                placeholder: "First Name",
                                keyboardType: .default,
                                sfSymbol: nil)
-            .previewLayout(.sizeThatFits)
-            .previewDisplayName("First Name Text Input with no sfSymbol")
-            .padding()
+            .preview(with: "First Name Text Input with no sfSymbol")
         }
     }
 }
