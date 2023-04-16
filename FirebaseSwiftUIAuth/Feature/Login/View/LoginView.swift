@@ -16,10 +16,9 @@ struct LoginView: View {
                                    keyboardType: .emailAddress,
                                    sfSymbol: "envelope")
                 
-                InputTextFieldView(text: .constant(""),
-                                   placeholder: "Password",
-                                   keyboardType: .emailAddress,
-                                   sfSymbol: "locke")
+                InputPasswordView(password: .constant(""),
+                                  placeholder: "Password",
+                                  sfSymbol: "lock")
             }
             
             HStack {
