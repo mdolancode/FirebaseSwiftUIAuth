@@ -19,6 +19,7 @@
 		C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0029EC2AB40041773D /* InputPasswordView.swift */; };
 		C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0229EC2E580041773D /* ButtonView.swift */; };
 		C5F32D0729EC366C0041773D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0629EC366C0041773D /* RegisterView.swift */; };
+		C5F32D0929EC38B10041773D /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0829EC38B10041773D /* CloseModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C5F32D0029EC2AB40041773D /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
 		C5F32D0229EC2E580041773D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C5F32D0629EC366C0041773D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C5F32D0829EC38B10041773D /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				C558A8F429E8E04F001415CE /* PreviewLayoutComponentModifier.swift */,
+				C5F32D0829EC38B10041773D /* CloseModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */,
 				C558A8EB29E83C15001415CE /* LoginView.swift in Sources */,
 				C558A8F529E8E04F001415CE /* PreviewLayoutComponentModifier.swift in Sources */,
+				C5F32D0929EC38B10041773D /* CloseModifier.swift in Sources */,
 				C5F32D0729EC366C0041773D /* RegisterView.swift in Sources */,
 				C558A8CE29E82FBC001415CE /* FirebaseSwiftUIAuthApp.swift in Sources */,
 				C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */,
