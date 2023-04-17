@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @State private var showRegistration = false
+    @State private var showForgotPassword = false
     
     var body: some View {
         VStack(spacing: 16) {
@@ -26,12 +27,16 @@ struct LoginView: View {
             HStack {
                 Spacer()
                 Button(action: {
-                    // TODO: Handle presentation to forgot password
+                    showForgotPassword.toggle()
                 }, label: {
                     Text("Forgot Password?")
                 })
                 .font(.system(size: 16,
                               weight: .bold))
+                
+                .sheet(isPresented: $showForgotPassword) {
+                    ForgotPasswordView()
+                }
             }
             
             VStack(spacing: 16) {
