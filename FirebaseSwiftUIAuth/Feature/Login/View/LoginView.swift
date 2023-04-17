@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State private var showRegistration = false
+    
     var body: some View {
         VStack(spacing: 16) {
             VStack(spacing: 16) {
@@ -41,10 +43,13 @@ struct LoginView: View {
                            background: .clear,
                            foreground: .blue,
                            border: .blue) {
-                    // TODO: Handle presentation to registration
+                    showRegistration.toggle()
+                }
+                
+                .sheet(isPresented: $showRegistration) {
+                    RegisterView()
                 }
             }
-            
         }
         .padding(.horizontal, 15)
         .navigationTitle("Login")
