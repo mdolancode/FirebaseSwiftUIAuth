@@ -26,7 +26,7 @@ protocol RegistrationViewModel {
 }
 
 // 3.
-final class RegistrationViewModelImpl: RegistrationViewModel {
+final class RegistrationViewModelImpl: ObservableObject, RegistrationViewModel {
     let service: RegistrationService
     var state: RegistrationState = .na
     // 4. Created computed property inside RegistrationDetails
