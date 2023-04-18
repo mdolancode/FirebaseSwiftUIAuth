@@ -30,7 +30,7 @@ final class RegistrationViewModelImpl: ObservableObject, RegistrationViewModel {
     let service: RegistrationService
     var state: RegistrationState = .na
     // 4. Created computed property inside RegistrationDetails
-    var userDetails: RegistrationDetails = RegistrationDetails.new
+    @Published var userDetails: RegistrationDetails = RegistrationDetails.new
     
     // 5.
     private var subscriptions = Set<AnyCancellable>()
