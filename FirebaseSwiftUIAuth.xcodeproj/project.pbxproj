@@ -19,6 +19,7 @@
 		C5C1BA2729ED7F8C00F13022 /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1BA2629ED7F8C00F13022 /* RegistrationDetails.swift */; };
 		C5C1BA2A29ED804600F13022 /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1BA2929ED804600F13022 /* RegistrationService.swift */; };
 		C5C1BA2D29ED859F00F13022 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1BA2C29ED859F00F13022 /* RegistrationViewModel.swift */; };
+		C5C1BA3029EED14500F13022 /* SessionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C1BA2F29EED14500F13022 /* SessionUserDetails.swift */; };
 		C5F32D0129EC2AB40041773D /* InputPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0029EC2AB40041773D /* InputPasswordView.swift */; };
 		C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0229EC2E580041773D /* ButtonView.swift */; };
 		C5F32D0729EC366C0041773D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F32D0629EC366C0041773D /* RegisterView.swift */; };
@@ -39,6 +40,7 @@
 		C5C1BA2629ED7F8C00F13022 /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		C5C1BA2929ED804600F13022 /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		C5C1BA2C29ED859F00F13022 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		C5C1BA2F29EED14500F13022 /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
 		C5F32D0029EC2AB40041773D /* InputPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPasswordView.swift; sourceTree = "<group>"; };
 		C5F32D0229EC2E580041773D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		C5F32D0629EC366C0041773D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		C558A8E729E83B92001415CE /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				C5C1BA2E29EED12700F13022 /* Session */,
 				C5F32D0F29EC64BB0041773D /* Forgot Password */,
 				C5F32D0A29EC60410041773D /* Home */,
 				C5F32D0429EC36330041773D /* Register */,
@@ -174,6 +177,22 @@
 				C5C1BA2C29ED859F00F13022 /* RegistrationViewModel.swift */,
 			);
 			path = "View Model";
+			sourceTree = "<group>";
+		};
+		C5C1BA2E29EED12700F13022 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C5C1BA3129EED1E200F13022 /* Model */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C5C1BA3129EED1E200F13022 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5C1BA2F29EED14500F13022 /* SessionUserDetails.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C5F32D0429EC36330041773D /* Register */ = {
@@ -317,6 +336,7 @@
 				C5C1BA2D29ED859F00F13022 /* RegistrationViewModel.swift in Sources */,
 				C5F32D0329EC2E580041773D /* ButtonView.swift in Sources */,
 				C5F32D1229EC64E00041773D /* ForgotPasswordView.swift in Sources */,
+				C5C1BA3029EED14500F13022 /* SessionUserDetails.swift in Sources */,
 				C558A8EF29E83DC6001415CE /* InputTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
